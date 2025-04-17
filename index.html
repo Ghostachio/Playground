@@ -19,6 +19,7 @@
       </header>
       <section>
         <h2>Learning playgrounds</h2>
+        <h3>these are paragraphs and the big titles are headings</h3>
         <!-- h's & p's are block elements -->
         <p>Welcome to the learning playgrounds!</p>
         <p>Here you can learn about various topics.</p>
@@ -71,6 +72,68 @@
           <label for="q">look for</label>
           <input type="text" name="q" id="q" />
           <button>Look on reddit</button>
+        </form>
+        <form action="">
+          <h2>Check Boxes demo</h2>
+          <label for="yes">i agree</label>
+          <input type="checkbox" name="yes" id="yes" value="yes" checked />
+          <label for="no">not agreed</label>
+          <input type="checkbox" name="no" id="no" />
+        </form>
+        <form action="">
+          <h2>Pick one and only one option</h2>
+          <label for="">option1</label>
+          <input type="radio" name="option" id="option1" value="option1" />
+          <label for="">option2</label>
+          <input type="radio" name="option" id="option2" value="option2" />
+          <label for="">option3</label>
+          <input type="radio" name="option" id="option3" value="option3" />
+        </form>
+        <form action="">
+          <h2>Pick one City fron the options</h2>
+          <label for="cities">Select your city</label>
+          <select name="cities" id="cities">
+            <option value="marrakech">marrakech</option>
+            <option value="rabat">rabat</option>
+            <option value="casablanca">casablanca</option>
+          </select>
+
+          <button>Submit</button>
+        </form>
+      </section>
+      <section>
+        <h2>Exercice: Marathon Form with multiple input types</h2>
+        <form action="">
+          <label for="name">name</label>
+          <input type="text" name="name" id="name" required />
+          <label for="last_name">last name</label>
+          <input type="text" name="last_name" id="last_name" required />
+          <p>
+            <label for="race">Select a race</label>
+            <div>
+            <input type="radio" name="race" id="5k" value="5k" />
+            <label for="5k">5k</label>
+            <input type="radio" name="race" id="half" value="half" />
+            <label for="half">half marathon</label>
+            <input type="radio" name="race" id="marathon" value="marathon" />
+            <label for="marathon">marathon</label>
+          </div>
+          </p>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="password2">password</label>
+            <input type="password" name="password" id="password2">
+          </div>
+          <div>
+            <label for="age">Select your age</label>
+            <select name="age" id="age">
+              <option value="under">under 18</option>
+              <option value="junior">junior</option>
+              <option value="senior">senior</option>
+            </select>
+          </div>
+          <button>Register</button>
         </form>
       </section>
     </main>
