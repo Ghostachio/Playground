@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-button.btn {
+.btn {
   background-color: bisque;
   border: none;
   color: black;
@@ -12,6 +12,13 @@ button.btn {
   width: 100px;
   height: 50px;
   border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: lightblue;
+  cursor: pointer;
 }
 
 .css-box {
@@ -32,6 +39,7 @@ button.btn {
   color: white;
   font-weight: 200;
   text-align: right;
+  padding: 2rem;
 }
 
 .css-box h2 {
@@ -40,4 +48,23 @@ button.btn {
   width: 100%;
   margin-bottom: 2rem;
   font-size: 80px;
+}
+
+.css-box h3 {
+  color: gold;
+  text-align: left;
+  width: 100%;
+  padding-left: 3rem;
+}
+
+.borders {
+  background-color: beige;
+}
+
+.borders p {
+  width: 500px;
+  border: 5px solid green;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 10px;
 }
