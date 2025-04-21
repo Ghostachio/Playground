@@ -14,11 +14,13 @@
   border-radius: 5px;
   font-size: 20px;
   font-weight: bold;
+  transition: 1s;
 }
 
 .btn:hover {
-  background-color: lightblue;
   cursor: pointer;
+  background-color: rgb(138, 43, 226, 0.5);
+  transform: scale(1.3);
 }
 
 .css-box {
@@ -67,4 +69,31 @@
   margin: 3px;
   padding: 3px;
   border-radius: 10px;
+  display: inline-block;
+}
+
+.position div {
+  height: 5rem;
+  width: 5rem;
+  background-color: aquamarine;
+  position: fixed;
+  top: 700px;
+  left: 1400px;
+  border-radius: 1rem;
+  transition: 2s;
+}
+
+.position div:hover {
+  background-color: palegreen;
+  cursor: pointer;
+  transform: scale(1.2);
+  color: palevioletred;
+}
+
+.position div p {
+  display: block;
+  font-size: 0.8rem;
+  padding: 1rem;
+  font-family: sans-serif;
+  font-weight: bold;
 }
