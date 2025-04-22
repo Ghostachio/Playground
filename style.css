@@ -97,3 +97,39 @@
   font-family: sans-serif;
   font-weight: bold;
 }
+
+.flex-heading {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.flexbox div {
+  background-color: palevioletred;
+  height: 50px;
+  width: 400px;
+  margin: 1rem 1rem;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.grow {
+  height: 500px;
+  background-color: palegoldenrod;
+  margin: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grow div {
+  flex: 1;
+  background-color: palegreen;
+  border: 1px solid black;
+}
