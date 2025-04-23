@@ -133,3 +133,32 @@
   background-color: palegreen;
   border: 1px solid black;
 }
+
+@media (min-width: 500px) {
+  h2 {
+    color: red;
+  }
+}
+@media (min-width: 1000px) {
+  h2 {
+    color: green;
+  }
+}
+@media (min-width: 400px) {
+  .css-box h2 {
+    color: palegreen;
+    font-size: 30px;
+  }
+}
+@media (min-width: 800px) {
+  .css-box h2 {
+    color: palegoldenrod;
+    font-size: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .css-box h2 {
+    color: gold;
+    font-size: 80px;
+  }
+}
